@@ -30,6 +30,12 @@
         {
             this.tabMain = new System.Windows.Forms.TabControl();
             this.tabOffice365 = new System.Windows.Forms.TabPage();
+            this.textBox30 = new System.Windows.Forms.TextBox();
+            this.textBox29 = new System.Windows.Forms.TextBox();
+            this.textBox28 = new System.Windows.Forms.TextBox();
+            this.textBox26 = new System.Windows.Forms.TextBox();
+            this.textBox25 = new System.Windows.Forms.TextBox();
+            this.textBox24 = new System.Windows.Forms.TextBox();
             this.textBox23 = new System.Windows.Forms.TextBox();
             this.checkBox13 = new System.Windows.Forms.CheckBox();
             this.checkBox14 = new System.Windows.Forms.CheckBox();
@@ -89,12 +95,6 @@
             this.textBox13 = new System.Windows.Forms.TextBox();
             this.textBox14 = new System.Windows.Forms.TextBox();
             this.textBox15 = new System.Windows.Forms.TextBox();
-            this.textBox24 = new System.Windows.Forms.TextBox();
-            this.textBox25 = new System.Windows.Forms.TextBox();
-            this.textBox26 = new System.Windows.Forms.TextBox();
-            this.textBox28 = new System.Windows.Forms.TextBox();
-            this.textBox29 = new System.Windows.Forms.TextBox();
-            this.textBox30 = new System.Windows.Forms.TextBox();
             this.tabMain.SuspendLayout();
             this.tabOffice365.SuspendLayout();
             this.tabPage2.SuspendLayout();
@@ -171,6 +171,72 @@
             this.tabOffice365.TabIndex = 0;
             this.tabOffice365.Text = "OnBoard";
             this.tabOffice365.UseVisualStyleBackColor = true;
+            // 
+            // textBox30
+            // 
+            this.textBox30.Enabled = false;
+            this.textBox30.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox30.Location = new System.Drawing.Point(855, 730);
+            this.textBox30.Name = "textBox30";
+            this.textBox30.Size = new System.Drawing.Size(149, 29);
+            this.textBox30.TabIndex = 60;
+            this.textBox30.Text = "All member Linkit";
+            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox29
+            // 
+            this.textBox29.Enabled = false;
+            this.textBox29.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox29.Location = new System.Drawing.Point(855, 664);
+            this.textBox29.Name = "textBox29";
+            this.textBox29.Size = new System.Drawing.Size(149, 29);
+            this.textBox29.TabIndex = 59;
+            this.textBox29.Text = "All member Linkit";
+            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox28
+            // 
+            this.textBox28.Enabled = false;
+            this.textBox28.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox28.Location = new System.Drawing.Point(855, 540);
+            this.textBox28.Name = "textBox28";
+            this.textBox28.Size = new System.Drawing.Size(149, 29);
+            this.textBox28.TabIndex = 58;
+            this.textBox28.Text = "All member Linkit";
+            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox26
+            // 
+            this.textBox26.Enabled = false;
+            this.textBox26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox26.Location = new System.Drawing.Point(855, 478);
+            this.textBox26.Name = "textBox26";
+            this.textBox26.Size = new System.Drawing.Size(105, 29);
+            this.textBox26.TabIndex = 56;
+            this.textBox26.Text = "Only QC";
+            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox25
+            // 
+            this.textBox25.Enabled = false;
+            this.textBox25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox25.Location = new System.Drawing.Point(855, 602);
+            this.textBox25.Name = "textBox25";
+            this.textBox25.Size = new System.Drawing.Size(317, 29);
+            this.textBox25.TabIndex = 55;
+            this.textBox25.Text = "Tùng - Dũng - Dương - Kiên - Hiệp - Huy";
+            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
+            // 
+            // textBox24
+            // 
+            this.textBox24.Enabled = false;
+            this.textBox24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.textBox24.Location = new System.Drawing.Point(855, 416);
+            this.textBox24.Name = "textBox24";
+            this.textBox24.Size = new System.Drawing.Size(105, 29);
+            this.textBox24.TabIndex = 54;
+            this.textBox24.Text = "Only Dev";
+            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // textBox23
             // 
@@ -371,7 +437,7 @@
             // 
             this.textBox1.Enabled = false;
             this.textBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox1.Location = new System.Drawing.Point(612, 345);
+            this.textBox1.Location = new System.Drawing.Point(610, 423);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(184, 29);
             this.textBox1.TabIndex = 33;
@@ -382,7 +448,7 @@
             // 
             this.checkBox8.AutoSize = true;
             this.checkBox8.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox8.Location = new System.Drawing.Point(612, 606);
+            this.checkBox8.Location = new System.Drawing.Point(610, 684);
             this.checkBox8.Name = "checkBox8";
             this.checkBox8.Size = new System.Drawing.Size(82, 25);
             this.checkBox8.TabIndex = 32;
@@ -393,7 +459,7 @@
             // 
             this.checkBox1.AutoSize = true;
             this.checkBox1.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox1.Location = new System.Drawing.Point(612, 544);
+            this.checkBox1.Location = new System.Drawing.Point(610, 622);
             this.checkBox1.Name = "checkBox1";
             this.checkBox1.Size = new System.Drawing.Size(127, 25);
             this.checkBox1.TabIndex = 25;
@@ -404,7 +470,7 @@
             // 
             this.checkBox7.AutoSize = true;
             this.checkBox7.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox7.Location = new System.Drawing.Point(612, 513);
+            this.checkBox7.Location = new System.Drawing.Point(610, 591);
             this.checkBox7.Name = "checkBox7";
             this.checkBox7.Size = new System.Drawing.Size(106, 25);
             this.checkBox7.TabIndex = 31;
@@ -415,7 +481,7 @@
             // 
             this.checkBox2.AutoSize = true;
             this.checkBox2.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox2.Location = new System.Drawing.Point(612, 575);
+            this.checkBox2.Location = new System.Drawing.Point(610, 653);
             this.checkBox2.Name = "checkBox2";
             this.checkBox2.Size = new System.Drawing.Size(103, 25);
             this.checkBox2.TabIndex = 26;
@@ -426,7 +492,7 @@
             // 
             this.checkBox6.AutoSize = true;
             this.checkBox6.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox6.Location = new System.Drawing.Point(612, 451);
+            this.checkBox6.Location = new System.Drawing.Point(610, 529);
             this.checkBox6.Name = "checkBox6";
             this.checkBox6.Size = new System.Drawing.Size(144, 25);
             this.checkBox6.TabIndex = 30;
@@ -437,7 +503,7 @@
             // 
             this.checkBox3.AutoSize = true;
             this.checkBox3.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox3.Location = new System.Drawing.Point(612, 420);
+            this.checkBox3.Location = new System.Drawing.Point(610, 498);
             this.checkBox3.Name = "checkBox3";
             this.checkBox3.Size = new System.Drawing.Size(101, 25);
             this.checkBox3.TabIndex = 27;
@@ -448,7 +514,7 @@
             // 
             this.checkBox5.AutoSize = true;
             this.checkBox5.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox5.Location = new System.Drawing.Point(612, 482);
+            this.checkBox5.Location = new System.Drawing.Point(610, 560);
             this.checkBox5.Name = "checkBox5";
             this.checkBox5.Size = new System.Drawing.Size(172, 25);
             this.checkBox5.TabIndex = 29;
@@ -459,7 +525,7 @@
             // 
             this.checkBox4.AutoSize = true;
             this.checkBox4.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.checkBox4.Location = new System.Drawing.Point(612, 389);
+            this.checkBox4.Location = new System.Drawing.Point(610, 467);
             this.checkBox4.Name = "checkBox4";
             this.checkBox4.Size = new System.Drawing.Size(184, 25);
             this.checkBox4.TabIndex = 28;
@@ -783,72 +849,6 @@
             this.textBox15.Name = "textBox15";
             this.textBox15.Size = new System.Drawing.Size(277, 29);
             this.textBox15.TabIndex = 40;
-            // 
-            // textBox24
-            // 
-            this.textBox24.Enabled = false;
-            this.textBox24.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox24.Location = new System.Drawing.Point(855, 416);
-            this.textBox24.Name = "textBox24";
-            this.textBox24.Size = new System.Drawing.Size(105, 29);
-            this.textBox24.TabIndex = 54;
-            this.textBox24.Text = "Only Dev";
-            this.textBox24.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox25
-            // 
-            this.textBox25.Enabled = false;
-            this.textBox25.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox25.Location = new System.Drawing.Point(855, 602);
-            this.textBox25.Name = "textBox25";
-            this.textBox25.Size = new System.Drawing.Size(317, 29);
-            this.textBox25.TabIndex = 55;
-            this.textBox25.Text = "Tùng - Dũng - Dương - Kiên - Hiệp - Huy";
-            this.textBox25.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox26
-            // 
-            this.textBox26.Enabled = false;
-            this.textBox26.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox26.Location = new System.Drawing.Point(855, 478);
-            this.textBox26.Name = "textBox26";
-            this.textBox26.Size = new System.Drawing.Size(105, 29);
-            this.textBox26.TabIndex = 56;
-            this.textBox26.Text = "Only QC";
-            this.textBox26.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox28
-            // 
-            this.textBox28.Enabled = false;
-            this.textBox28.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox28.Location = new System.Drawing.Point(855, 540);
-            this.textBox28.Name = "textBox28";
-            this.textBox28.Size = new System.Drawing.Size(149, 29);
-            this.textBox28.TabIndex = 58;
-            this.textBox28.Text = "All member Linkit";
-            this.textBox28.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox29
-            // 
-            this.textBox29.Enabled = false;
-            this.textBox29.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox29.Location = new System.Drawing.Point(855, 664);
-            this.textBox29.Name = "textBox29";
-            this.textBox29.Size = new System.Drawing.Size(149, 29);
-            this.textBox29.TabIndex = 59;
-            this.textBox29.Text = "All member Linkit";
-            this.textBox29.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // textBox30
-            // 
-            this.textBox30.Enabled = false;
-            this.textBox30.Font = new System.Drawing.Font("Times New Roman", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.textBox30.Location = new System.Drawing.Point(855, 730);
-            this.textBox30.Name = "textBox30";
-            this.textBox30.Size = new System.Drawing.Size(149, 29);
-            this.textBox30.TabIndex = 60;
-            this.textBox30.Text = "All member Linkit";
-            this.textBox30.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             // 
             // formMain
             // 
